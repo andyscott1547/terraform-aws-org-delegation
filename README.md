@@ -61,6 +61,9 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | firewall_manager_delegated | Enable Firewall Manager Delegated Admin | `bool` | `true` | no |
 | guardduty_delegated | Enable GuardDuty Delegated Admin | `bool` | `true` | no |
+| inspector2_delegated | Enable Inspector2 Delegated Admin | `bool` | `true` | no |
+| ipam_delegated | Enable IPAM Delegated Admin | `bool` | `true` | no |
+| macie2_delegated | Enable Macie2 Delegated Admin | `bool` | `true` | no |
 | network_account_id | The AWS account ID of the network account | `string` | n/a | yes |
 | security_account_id | The AWS account ID of the security account | `string` | n/a | yes |
 | security_hub_delegated | Enable Security Hub Delegated Admin | `bool` | `true` | no |
