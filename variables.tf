@@ -33,7 +33,7 @@ variable "inspector2_delegated" {
   type        = bool
   default     = true
 }
-  
+
 variable "macie2_delegated" {
   description = "Enable Macie2 Delegated Admin"
   type        = bool

@@ -3,11 +3,23 @@
 Delegate AWS service admin to dedicated accounts.
 
 - [Overview](#overview)
+- [References](#references)
 - [Terraform Docs](#terraform-docs)
 
 ## Overview
 
-TBC
+This module is designed to help delegate services from the Organization Management account. Currently supported delegation services are:
+
+* IPAM
+* Guardduty
+* SecurityHub
+* Macie2
+* Inspector2
+* Firewall Manager
+
+## References
+
+* https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html
 
 ## Terraform-Docs
 
